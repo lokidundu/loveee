@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Message by Shobhit Dev</title>
+    <title>Message by your loki </title>
      <style>
       * {
   box-sizing: border-box;
@@ -522,6 +522,111 @@ No challenge is too big for you, and no goal is out of reach. You inspire those 
   document.querySelectorAll(".book").forEach(flipBook);
   
 </script>
+/* =========================
+   FINAL VALENTINE PAGE
+========================= */
+.final-valentine {
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    radial-gradient(circle at top, #ff758c, #ff165d);
+  color: #fff !important;
+  text-align: center;
+  justify-content: center;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+.final-valentine h1 {
+  font-size: 3cqmin;
+  color: #ffdde1 !important;
+  margin-bottom: 15px;
+}
+
+.final-valentine p {
+  font-size: 2cqmin;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #ffffff !important;
+}
+
+.signature {
+  margin-top: 20px;
+  font-size: 2.2cqmin;
+  color: #ffd6e0;
+}
+
+/* Back side */
+.final-back {
+  background: radial-gradient(circle at top, #ff758c, #ff165d);
+  color: white !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.final-back h2 {
+  font-size: 2.8cqmin;
+  margin-bottom: 10px;
+}
+
+/* Sparkle text */
+.sparkle-text {
+  animation: sparkle 2s infinite alternate;
+}
+
+@keyframes sparkle {
+  from {
+    text-shadow:
+      0 0 10px #ff4d6d,
+      0 0 20px #ff99ac,
+      0 0 30px #ff165d;
+  }
+  to {
+    text-shadow:
+      0 0 20px #ffd6e0,
+      0 0 40px #ff4d6d,
+      0 0 60px #ff165d;
+  }
+}
+
+/* Glow animation */
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 20px #ff4d6d; }
+  50% { box-shadow: 0 0 40px #ff99ac; }
+  100% { box-shadow: 0 0 20px #ff4d6d; }
+}
+
  
   </body>
+  <!-- FINAL VALENTINE PAGE -->
+<div class="page">
+  <div class="front final-valentine">
+    <h1 class="sparkle-text">Happy Valentine's Day, Nanna 💖✨</h1>
+
+    <p>
+      From the deepest corner of my heart, this day is for you.
+      Not just today, but every smile, every heartbeat,
+      every moment that feels special.
+    </p>
+
+    <p>
+      You are my happiness, my comfort, my smile on hard days,
+      and my favorite thought on good ones.
+    </p>
+
+    <p class="signature">
+      Forever yours,<br />
+      ❤️ Loki
+    </p>
+  </div>
+
+  <div class="back final-back">
+    <h2>🌹 Always & Forever 🌹</h2>
+    <p>
+      No matter where life takes us,<br />
+      my heart will always choose you.
+    </p>
+  </div>
+</div>
+
 </html>
